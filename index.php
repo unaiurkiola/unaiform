@@ -1,7 +1,13 @@
 <html>
+<head>
+    <title>forms</title>
+</head>
 <body>
 
-    Hello <?php echo $_GET["name"]; ?>
+    <form action="hello.php" method="get">
+        Name: <input type="text" name="name"><br>
+        <input type="submit">
+    </form>
 
 </body>
 </html>
